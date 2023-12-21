@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+  <nav id="desktop-nav"> 
+    <div class="logo">Kles.</div>
+    <div> 
+      <ul class="nav-links">
+        <li><a href="#About"> About </a> </li>
+        <li><a href="#Skills"> Skills </a> </li>
+        <li><a href="#Contact"> Contacts </a> </li>
+        <li><a href="#Projects"> Projects </a> </li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"> Kles. </div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()"> 
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#About" onclick="toggleMenu()">About</a></li>
+        <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#Contact" onclick="toggleMenu()">Contacts</a></li>
+        <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+    </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./Assets/profile pogi.png" alt="Klester Carl Mendoza Profile Picture">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1"> Hello, I'm </p>
+      <h1 class="title"> Klester Carl A. Mendoza </h1>
+      <p class="section__text__p2">Video Creator | Frontend Development | Film Maker | Event Host </p>
+      <div class="btn-container">
+          <button 
+          class="btn btn-color-2"
+          onclick="window.open('./Assets/Pinaka Final Resume.pdf')"> My Resume
+        </button>
+        <button 
+        class="btn btn-color-1"onclick="location href='./#Contact'"> Contact Info
+      </button>
+      </div>
+      <div id="socials-container">
+        <img src="./Assets/Fb.png" alt="My Facebook Profile"
+        class="icon" onclick="location.href='https://www.facebook.com/pikachuu110104'">
+        <img src="./Assets/instagram.webp" alt="My Instagram Profile"
+        class="icon" onclick="location.href='https://www.instagram.com/kles.com.ly?igshid=OGQ5ZDc2ODk2ZA=='">
+      </div>
+    </div>
+    <img src="./Assets/Arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#About'"/>
+  </section>
+  <section id="About">
+    <p class="section__text__p1">Get to know more </p>
+    <h1 class="title">About me </h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./Assets/profile.jpg" alt="Profile Picture" class="about-pic">
+      </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./Assets/professional-skills-icon.webp" alt=" Skills icon" class="icon"/>
+          <h3>Skills</h3>
+          <p> NC2 Holder of <br> Bread and Pastry Production</p> 
+        </div>
+        <div class="details-container">
+          <img src="./Assets/educ.png" alt="Education icon" class="icon"/>
+          <h3>Education</h3>
+          <p> Diploma in Information Technology <br> Suma-Cumlaude </p>
+        </div>
+        <img src="./Assets/Arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Skills'"/>
+      </div>
+      <div class="text-container">
+        <p> Proficient student leader and public servant with 6 years experience in student government service. Demonstrated exemplary skills in motivating others and organizing projects that have significantly contributed to the betterment of the School, Community and my Country </p>
+      </div>
+    </div>
+  </section>
+  <section id="Skills">
+    <p class="section__text__p1"> EXPLORE MY </p>
+    <h1 class="title"> SKILLS </h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skills-sub-title"> Video Creator | Frontend Development | Film Maker | Event Host </h2>
+          <div class="article-container"> 
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> HTML </h3>
+                <p> Experienced </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> CSS </h3>
+                <p> Experienced </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> TALENTED SKILL </h3>
+                <p> Basic </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> GOOD COMMUNICATION </h3>
+                <p> Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> FILM DIRECTOR </h3>
+                <p> Experienced </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> PLEASING PERSONALITY </h3>
+                <p> Intermediate </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skills-sub-title"> Video Creator | Frontend Development | Film Maker | Event Host </h2>
+          <div class="article-container"> 
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> PHYTHON </h3>
+                <p> Experienced </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> EVENT ORGANIZER </h3>
+                <p> Experienced </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> LEADERSHIP SKILLS </h3>
+                <p> Intermediate </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> INNOVATIVE </h3>
+                <p> Basic </p>
+              </div>
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> TECHNOLOGY LITERATE </h3>
+                <p> Experienced </p>
+              </div>
+              
+            </article>
+            <article>
+              <img src="./Assets/check.jpg" alt="Skills icon"
+              class="icon"/>
+              <div>
+                <h3> COMPUTER LITERATE </h3>
+                <p> Intermediate </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <img src="./Assets/Arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Projects'"/>
+      </div>
+    </div>
+  </section>
+  <section id="Projects">
+    <p class="section__text__p1"> Browse My Recent </p>
+    <h1 class="title"> Projects </h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./Assets/SNY06235.JPG" alt="Project 1" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title"> Project One</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./Assets/Emcee 1.JPG" alt="Project 2" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title"> Project Two</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./Assets/emcee 2.JPG" alt="Project 3" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title"> Project Three</h2>
+        <div class="btn-container">
+          </button>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./Assets/emcee 3.jpg" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title"> Project Four</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <img src="./Assets/Arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Contact'"/>
+    </div>
+    </div> 
+  </section>
+
+  <section id="selection__initial-scale"> 
+     <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <p><a href="mailto:klestermendoza510@gmail."></a>
+      </div>
+     </div>
+  </section>
+
+  <script src="script.js"> </script> 
+</section>
+<section id="Contact"> 
+   <p class="section__text__p1"> Get in Touch</p>
+   <h1 class="title"> CONTACT ME!</h1>
+   <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="./Assets/Email.png" alt="Email icon" class="icon" class="icon contact-icon"/>
+      <p><a href="mailto:klestermendoza510@gmail.com">klestermendoza510@gmail.com</a></p>
+      <img src="./Assets/png-transparent-computer-icons-call-icon-cdr-text-copyright.png" alt="Call icon" class="icon" class="icon contact-icon"/>
+      <p><a href="call: +639455095363"> (+639)(4550)(95363) </a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="./Assets/link.png" alt="LinkedIn icon" class="icon" class="icon contact-icon"/>
+      <p><a href="https://www.facebook.com/pikachuu110104">Klester Carl Alejo Mendoza</a></p>
+    </div>
+   </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#About"> About </a> </li>
+        <li><a href="#Skills"> Skills </a> </li>
+        <li><a href="#Contacts"> Contacts </a> </li>
+        <li><a href="#Projects"> Projects </a> </li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2023 Klester Carl A. Mendoza. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
